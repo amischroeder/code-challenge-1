@@ -5,6 +5,6 @@ $(document).ready(function(){
     $('body').append('<p><button class="generateButton">Generate</button></p>');
     $('body').on('click', '.generateButton', function(){
         buttonClicks++;
-        $('body').append('<div><p>Button clicked ' + buttonClicks +' times</p></div>');
+        $('body').append('<div><p>' + buttonClicks + '<button>Swap</button>' + '<button>Delete</button>' + '</p></div>');
     });
 });
